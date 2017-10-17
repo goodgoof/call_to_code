@@ -39,3 +39,8 @@ td {
 .copyright td {
   color: grey;
 }
+
+button.more{
+  box-sizing: content-box;
+
+}
