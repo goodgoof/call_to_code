@@ -1,7 +1,18 @@
+ul {
+  padding-top: 8px;
+  margin: 0px;
+  list-style: none;
+
+}
+
+ul.languages {
+  margin-left: -10px;
+}
+
 #id ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-top: 8px;
   float: left;
 }
 
@@ -11,8 +22,20 @@ div#list li {
   text-align: left;
 }
 
-div.col-md-1{
-  padding: 1px;
-  font-size: 10px;
-  margin: 1px;
+div#list {
+  padding :0;
+}
+
+
+td {
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+.copyright td {
+  color: grey;
 }

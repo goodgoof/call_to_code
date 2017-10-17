@@ -53,3 +53,10 @@ input#first_name.form-control, input#last_name.form-control {
 #account {
   color: grey;
 }
+div.gender {
+  margin-top: 10px;
+}
+
+hr {
+  border-top: 1px solid #e6e1e1;
+}

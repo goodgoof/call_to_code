@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./css/main.css" type="text/css">
   <link rel="stylesheet" href="./css/footer.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-  <link href="index.js" rel="script">
+
 
 </head>
 
@@ -86,48 +86,47 @@
         <p class="sign_up">Sign Up</p>
         <p>It's free and always will be</p>
 
-      <div class="form-group">
-        <form class="form-inline">
-          <input type="name" class="form-control" id="first_name" placeholder="First name" >
-          <input type="text" class="form-control" id="last_name" placeholder="Last name" >
-        </form>
-      </div>
-
-      <div class="form-group">
-        <input type="name" class="form-control" placeholder="Mobile number or email" length="50"><br>
-        <input type="password"class="form-control" placeholder="New password" length="50">
-      </div>
-
-      <div class="abc">
-        <div class="birthday">Birthday</div>
-
-        <div class="a"><span class="_a" data-type="selectors" data-name="birthday_wrapper">
+        <div class="form-group">
           <form class="form-inline">
-            <input type="month" class="aug" placeholder="Aug" length="5">
-            <a href ="#">Why do I need to provide my <br>birthday</a> <br>
-
-         <div>
-            <input type="radio" name="gender" value="female" checked> Female
-            <input type="radio" name="gender" value="male" checked> Male
-         </div>
+            <input type="name" class="form-control" id="first_name" placeholder="First name" >
+            <input type="text" class="form-control" id="last_name" placeholder="Last name" >
           </form>
         </div>
+
+        <div class="form-group">
+          <input type="name" class="form-control" placeholder="Mobile number or email" length="50"><br>
+          <input type="password"class="form-control" placeholder="New password" length="50">
+        </div>
+
+        <div class="abc">
+          <div class="birthday">Birthday</div>
+
+          <div class="a"><span class="_a" data-type="selectors" data-name="birthday_wrapper">
+            <form class="form-inline">
+              <input type="month" class="aug" placeholder="Aug" length="5">
+              <a href ="#">Why do I need to provide my birthday</a>
+              <br>
+
+           <div class="gender">
+              <input type="radio" name="gender" value="female" checked> Female
+              <input type="radio" name="gender" value="male" checked> Male
+           </div>
+            </form>
+          </div>
 
       </div><br>
       <div class="create_account">
         <p id="account">By clicking Create Account, you agree to our <a href="">Terms</a> and that<br>
            you have read our <a href="">Data Policy</a>, including our <a href="">Cookie use</a>. You <br>
            may receive SMS not Notifications from Facebook and can opt out at any time.
-         </p>
+        </p>
+
          <button type="submit" class="btn btn-default btn-lg" id="submit">Create Account</button>
-         <hr>
-         <div>
-         <p><a href=""> Create a Page</a> for a celebrity, Brand or Business.</p><br>
+          <hr>
+        <div>
+           <p><a href=""> Create a Page</a> for a celebrity, Brand or Business.</p><br>
         </div>
        </div> <!--end of create account-->
-
-
-
 
         </div> <!--end of col-sm-6-->
       </div><!--end of row1-->
@@ -139,7 +138,7 @@
 <div class="footer">
   <div class="container">
     <div id="list">
-      <ul>
+      <ul class="languages">
         <li>English(US)</li>
         <li><a href="#">Espanol</a></li>
         <li><a href="#">Francais (France)</a></li>
@@ -154,78 +153,88 @@
       <hr>
     </div><!--end of list-->
 
-    <div class="row2">
+
+    <table>
+      <tbody>
+        <tr class="links">
+          <td><a href="#">Sign Up</a></td>
+          <td><a href="#">Log In</a></td>
+          <td><a href="#">Messenger</a></td>
+          <td><a href="#">Facebook Lite</a></td>
+          <td><a href="#">Mobile</a></td>
+          <td><a href="#">Find Friends</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+         </tr>
+
+        <tr>
+          <td><a href="#">Celebrities</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">Groups</a></td>
+          <td><a href="#">Recipes</a></td>
+          <td><a href="#">Sports</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+          <td><a href="#">xxx</a></td>
+        </tr>
+
+        <tr>
+          <td><a href="#">Developers</a></td>
+          <td><a href="#">XXX</a> </td>
+          <td><a href="#">XXX</a></td>
+          <td><a href="#">Cookies</a></td>
+          <td><a href="#">XXX</a> </td>
+          <td><a href="#">Terms</a></td>
+          <td><a href="#">help</a></td>
+        </tr>
+
+        <tr>
+        </tr>
+
+      </tbody>
+    </table>
+
+  <div class="copyright">
+    <table>
+      <tbody>
+        <tr>
+          <td>Facebook &copy; 2017</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!--  <div class="row2">
       <div class="col-md-1">
         <a href="" >Sign Up</a>
         <a href="" >Celebrities</a>
         <a href="" >Developers</a>
-      </div><!--end of col-md-1-->
+      </div><!-end of col-md-1-->
 
-      <div class="col-md-1">
-        <a href="" >Log In</a>
-        <a href="" >Marketplace</a>
-        <a href="" >Careers</a>
-      </div><!--end of col-md-1-->
 
-      <div class="col-md-1">
-        <a href="" >Messenger</a>
-        <a href="" >Groups</a>
-        <a href="" >Privacy</a>
 
-      </div><!--end of col-md-1-->
-      <div class="col-md-1">
-        <a href="" >Facebook Lite</a>
-        <a href="" >Recipes</a>
-        <a href="" >Cookies</a>
-      </div><!--end of col-md-1-->
 
-      <div class="col-md-1">
-        <a href="" >Mobile</a>
-        <a href="" >Sports</a>
-        <a href="" >Ad Choices</a>
-      </div><!--end of col-md-1-->
 
-      <div class="col-md-1">
-        <a href="" >Find friends</a>
-        <a href="" >Look</a>
-        <a href="" >Term</a>
-      </div><!--end of col-md-1-->
 
-      <div class="col-md-1">
-        <a href="" >People</a>
-        <a href="" >Moments</a>
-        <a href="" >Help</a>
-
-      </div><!--end of col-md-1-->
-
-      <div class="col-md-1">
-        <a href="" >Pages</a>
-        <a href="" >Instagram</a>
-
-      </div><!--end of col-md-1-->
-
-      <div class="col-md-1">
-        <a href="" >Places</a>
-        <a href="" >About</a>
-      </div><!--end of col-md-1-->
-
-      <div class="col-md-1">
-        <a href="" >Games</a>
-        <a href="" >Create Ad</a>
-
-      </div><!--end of col-md-1-->
-
-      <div class="col-md-1">
-        <a href="" >Locations</a>
-        <a href="" >Create Page</a>
-
-      </div><!--end of col-md-1-->
 
   </div><!--end of col-sm-6>-->
 </div><!--end of col-sm-6>-->
 </div><!--end of col-sm-6-->
 
+<script src="index.js"></script>
 
 </body>
 
-</html
+</html>
